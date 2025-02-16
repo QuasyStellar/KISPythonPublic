@@ -1,6 +1,6 @@
 # KISPython
 
-| № |[Домашние задания](https://github.com/QuasyStellar/KISPython/HomeWork/tree/main)|[Практические работы](https://github.com/QuasyStellar/KISPython/Practice/tree/main) |
+| № |[Домашние задания](https://github.com/QuasyStellar/KISPythonPublic/HomeWork/tree/main)|[Практические работы](https://github.com/QuasyStellar/KISPythonPublic/Practice/tree/main) |
 | ------------- | ------------- | ------------- |
 | 1 |✅|✅ |
 | 2 |X| X|
