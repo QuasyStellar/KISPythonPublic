@@ -20,15 +20,20 @@ def pyshader(func, w, h):
 
 # 4.2
 # def func(x, y):
-#     cx, cy = 0.5, 0.5
-#     radius = 0.3
-#     dist = math.sqrt((x - cx) ** 2 + (y - cy) ** 2)
-#
-#     if dist < radius:
-#         fade = 1 - (dist / radius)
-#         return (x * fade, y * fade, 0)
-#     else:
-#         return (0, 0, 0)
+    cx_green, cy_green = 0.4, 0.4
+    r_green = 0.4
+
+    cx_red, cy_red = 0.5, 0.5
+    r_red = 0.4
+
+    d_red = math.hypot(x - cx_red, y - cy_red)
+    d_green = math.hypot(x - cx_green, y - cy_green)
+
+    intensity_red = max(0, 1 - (d_red / r_red)**2)
+    intensity_green = max(0, 1 - (d_green / r_green)**2)
+
+    return intensity_red, intensity_green, 0
+
 
 # 4.3
 # def func(x, y):
