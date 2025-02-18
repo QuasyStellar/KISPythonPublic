@@ -20,19 +20,19 @@ def pyshader(func, w, h):
 
 # 4.2
 # def func(x, y):
-    cx_green, cy_green = 0.4, 0.4
-    r_green = 0.4
+#     cx_g, cy_g = 0.45, 0.45
+#     r_g = 0.3
 
-    cx_red, cy_red = 0.5, 0.5
-    r_red = 0.4
+#     cx_r, cy_r = 0.5, 0.5
+#     r_r = 0.3
 
-    d_red = math.hypot(x - cx_red, y - cy_red)
-    d_green = math.hypot(x - cx_green, y - cy_green)
+#     d_r = ((x - cx_r) ** 2 + (y - cy_r) ** 2) ** 0.5
+#     d_g = ((x - cx_g) ** 2 + (y - cy_g) ** 2) ** 0.5
 
-    intensity_red = max(0, 1 - (d_red / r_red)**2)
-    intensity_green = max(0, 1 - (d_green / r_green)**2)
+#     intensity_red = 1 - (d_r / r_r)**2
+#     intensity_green = 1 - (d_g / r_g)**2
 
-    return intensity_red, intensity_green, 0
+#     return intensity_red, intensity_green, 0
 
 
 # 4.3
