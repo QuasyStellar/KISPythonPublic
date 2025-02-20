@@ -3,7 +3,7 @@
 | № |[Домашние задания](https://github.com/QuasyStellar/KISPythonPublic/tree/main/HomeWork)|[Практические работы](https://github.com/QuasyStellar/KISPythonPublic/tree/main/Practice) |
 | ------------- | ------------- | ------------- |
 | 1 |✅|✅ |
-| 2 |X| X|
+| 2 |✅| ✅|
 | 3 |X|X |
 | 4 |X|X |
 | 5 |X|X |
