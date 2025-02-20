@@ -24,6 +24,26 @@ def main(m, n):
     sum_c = sum(map(lambda c: 5 * c**3, range(1, m + 1)))
     return sum_j * m - sum_c * n
 
+
+#Variant 4
+def main(m, n):
+    sum_j = 0
+    j = 1
+    while j <= n:
+        term1 = 26 * j**2
+        term2 = (j - 38 * j**2) ** 7
+        sum_j += term1 - term2
+        j += 1
+
+    sum_c = 0
+    c = 1
+    while c <= m:
+        term3 = 5 * c**3
+        sum_c += term3
+        c += 1
+
+    return sum_j * m - sum_c * n
+
 #Variant 5
 def sum_j(n):
     if n == 0:
