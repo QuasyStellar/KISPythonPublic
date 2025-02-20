@@ -17,3 +17,7 @@ def main(m, n):
     return sum_j * m - sum_c * n
 
 
+def main(m, n):
+    sum_j = sum(map(lambda j: 26 * j**2 - (j - 38 * j**2) ** 7, range(1, n + 1)))
+    sum_c = sum(map(lambda c: 5 * c**3, range(1, m + 1)))
+    return sum_j * m - sum_c * n
