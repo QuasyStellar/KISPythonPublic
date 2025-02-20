@@ -11,3 +11,9 @@ def main(m, n):
     return itr1
 
 
+def main(m, n):
+    sum_j = sum(26 * j**2 - (j - 38 * j**2) ** 7 for j in range(1, n + 1))
+    sum_c = sum(5 * c**3 for c in range(1, m + 1))
+    return sum_j * m - sum_c * n
+
+
