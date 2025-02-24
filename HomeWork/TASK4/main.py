@@ -63,6 +63,7 @@ def main(n: int):
 
 
 # Variant 5
+from math import sin
 
 
 def main(n):
