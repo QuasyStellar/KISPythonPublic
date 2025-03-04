@@ -21,3 +21,13 @@ def main(z, y):
         s += 21 * (y[n - i] + z[i // 3] ** 2)
         i += 1
     return 62 * s
+
+#Variant 4
+def main(z, y):
+    def recursive_sum(i, n, z, y):
+        if i > n:
+            return 0
+        return 21 * (y[n - i] + z[i // 3] ** 2) + recursive_sum(i + 1, n, z, y)
+    n = len(y)
+    return 62 * recursive_sum(1, n, z, y)
+
